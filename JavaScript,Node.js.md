@@ -21,9 +21,12 @@ css 선택자 => class=“” 제어 .js{} 광범위 / id=“” 제어 #id이�
 
 객체 => 이름이 있는 정리정돈 상자
         var 객체이름 = { “정보 이름”:“정보”} ex) “programmer”:“woori”
-        정보 꺼내오기 document.write(“programmer : ”+ 객체이름.programmer);
-        var 부분을 수정하지않고 중간에 정보추가 가능 
-        공백을 넣고 싶을 때 -> 객체이름[“정보이름”]=“정보”
+        
+정보 꺼내오기 => document.write(“programmer : ”+ 객체이름.programmer);
+                
+var 부분을 수정하지 않고 중간에 정보 추가 가능 
+                
+공백을 넣고 싶을 때 -> 객체이름[“정보이름”]=“정보”
 
 <     Node.js     >
 
@@ -57,9 +60,9 @@ Form => <input type="text" name="title"> <textarea name="description"></textarea
 
 객체 안의 함수 => 함수이름:function(){ }   / 호출 => 객체이름.함수이름() -> 이런 식으로 사용하면 함수이름 중복 사용 가능
 
-모듈 => 가장 큰 정리 도구 -> var M = { v:'v',f:function() { console.log(this.v);}} 
-                                    module.exports = M;
-                                  => 외부에서도 M 객체를 호출하여 사용가능
+모듈 => 가장 큰 정리 도구 -> var M = { v:'v',f:function() { console.log(this.v);}}; 
+
+module.exports = M; => 외부에서도 M 객체를 호출하여 사용가능
 
  
 
